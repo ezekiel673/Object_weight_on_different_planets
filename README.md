@@ -57,5 +57,5 @@ NASA for providing the accurate data on planetary gravity.
 Open source contributors for inspiring the design and structure of this application.
 
 ## Contact
-For any inquiries, please contact adeosunezekiel@gmail.com.
+For any inquiries, please contact adeosunezekiel005@gmail.com.
 
