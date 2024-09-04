@@ -44,7 +44,7 @@ Check out the live site at [Project solar system ](https://ezekiel-great.github.
 
 ## Screenshots
 
-![Screenshot of the Application](./design/dom_min_project_solar_system_day_4.1.mp4)
+![Screenshot of the Application](./design/project_solar_system)
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
