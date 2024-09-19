@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(./images/galaxy.gif);
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.input-container {
+    margin-bottom: 30px;
+}
+
+#mass, #planet, #calculate {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#planet {
+    margin-left: 10px;
+}
+
+#calculate {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.planet-details {
+    background: rgba(158, 157, 157, 0.2); /* Semi-transparent background */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.planet-details img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-self: center;
+    background: rgba(172, 171, 171, 0.2); /* Semi-transparent background */
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#weight {
+    border-radius: 50%;
+    background: rgba(158, 157, 157, 0.2); /* Semi-transparent background */
+    height: 150px;
+    width: 150px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+@media(width <= 600px){
+    h1 {
+        font-size: 1.5em;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    #calculate {
+        width: 200px;
+    }
+
+    .planet-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planet-details img {
+        width: 150px;
+        height: 150px;
+    }
+    #result {
+        font-size: 1em;
+        width: unset;
+    }
+    #weight {
+        height: 100px;
+        width: 100px;
+    }
+}
