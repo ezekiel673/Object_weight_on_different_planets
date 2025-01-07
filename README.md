@@ -18,7 +18,7 @@
 A simple and interactive web application that calculates the weight of an object on different planets within our solar system. This app leverages the gravitational differences between planets to show users how weight can vary depending on the planet they are on. Perfect for educational purposes or just for fun!
 
 ## Live Site
-Check out the live site at [Project solar system ](https://ezekiel-great.github.io/Object_weight_on_different_planets/)
+Check out the live site at [Project solar system ](https://ezekiel673.github.io/Object_weight_on_different_planets/)
 
 ## Features
 
